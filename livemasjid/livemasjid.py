@@ -1,4 +1,3 @@
-import logging
 import requests
 from threading import Thread
 import paho.mqtt.client as mqtt
@@ -9,7 +8,6 @@ MQTT_SSL_PORT = 8883
 WEBSOCKET_PORT = 1884
 
 STATUS_URL = "https://www.livemasjid.com/api/get_mountdetail_new.php"
-log = logging.getLogger("pushbullet.Listener")
 
 
 class Livemasjid(Thread):
