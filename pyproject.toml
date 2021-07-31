@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "livemasjid"
-version = "0.1.1"
-description = ""
+version = "0.1.2"
+description = "This package provides a pythonic interface to subscribe to updates from Livemasjid as well as to get sthe current status of Livemasjid streams."
 authors = ["Yusuff Lockhat <45769466+lockhaty@users.noreply.github.com>"]
 readme = "README.md"
 
