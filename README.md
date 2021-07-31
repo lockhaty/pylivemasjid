@@ -18,5 +18,5 @@ if __name__ == "__main__":
     lm.register_on_message_callback(my_callback)
     lm.update_status()
     status = lm.get_status()
-    lm.run()
+    lm.start()
 ```
